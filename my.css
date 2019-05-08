@@ -1,0 +1,310 @@
+body{
+font-family: 微軟正黑體;
+}
+body{
+background-image: url("images/背景(個人).png");
+background-repeat:repeat-y;
+background-size:100%,100%;
+
+}
+img.top{
+width: 100px;
+position: relative; right: -100px;
+top:40px
+}
+
+.nav{
+position: relative; left: -150px;
+}
+li.a{
+position: relative; top:-50px ;
+background:	#F2666C;
+height:0;
+width:200px;
+font-size:24px;
+border-radius:20px;
+padding:10px;
+}
+
+li.s{
+background:		#F08F90;
+height:200px;
+width:200px;
+font-size:24px;
+border-radius:20px;
+padding:10px;
+}
+
+ul.nav {
+margin:0;
+padding:0;
+list-style-type:none;
+width:100%;
+}
+ul.nav li {
+text-decoration: none;
+display:inline; margin:0; padding:10px/*設定為區塊*/
+padding:3px;
+}
+ul.nav li a.active,ul.nav li a:hover {
+background:#FCC9B9;/*滑鼠滑入處變色*/
+border-radius:20px;
+padding:5px;
+color:#C93756;
+}
+.head{width: 80%;
+position: relative; right:-135px ;
+top:34px;
+border-radius:20px;
+
+}
+section{
+background-color: white;
+border: #FCC9B9 2px solid;
+width: 80%;
+margin-top: 30px;
+margin-left: 10%;
+margin-left: 10%;
+height:850px;
+}
+img.top{
+width: 500px;
+position: relative; top: ;
+}
+img.l{
+float: left;
+width: 200px;
+height: 200px;
+border-radius:999em;
+}
+p.w{
+position: relative;
+left: -150px;
+top: -10px;
+word-break: break-all;
+font-size: 22px;
+margin-left: 500px;
+z-index:1;
+}
+img.i{
+position:relative;
+right:-320px;
+top:-250px;
+z-index:0;
+width: 500px;
+height: 350px;
+border-radius:20px;
+}
+img.member{
+width: 150px;
+position: relative; left:25px;
+top:-250px;
+}
+img.club{
+width: 200px;
+position: relative; left:25px;
+}
+img.eee{
+width: 150px;
+position: relative; left:25px;
+}
+.pics {
+margin: 0px auto;/*div對齊效果*//*display: inline對齊效果*/
+}
+.pics div {
+display: inline-block;/*讓div並排*/
+vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/
+width: 200px;
+height: 300px;
+
+}
+.hover{ position:relative;}
+.hover img{ position:absolute;
+/* 淡出淡入效果2秒 */
+-webkit-transition: opacity 0.5s ease-in-out;
+-moz-transition: opacity 0.5s ease-in-out;
+-o-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out;
+}
+.hover img:last-child:hover{
+/* 滑入時第一張透明度設0 */
+opacity:0;}
+img.mom
+{
+position: relative;right:-123px;
+top:-250px;
+width:200px;
+height:300px;
+}
+img.me
+{
+position: relative;right:-123px;
+top:-250px;
+width:200px;
+height:300px;
+}
+img.dad
+{
+position: relative;right:-123px;
+top:-250px;
+width:200px;
+height:300px;
+}
+img.cat
+{
+position: relative;right:-100px;
+top:-250px;
+width:200px;
+height:300px;
+}
+.clubb {
+margin: 0px auto;/*div對齊效果*//*display: inline對齊效果*/
+}
+.clubb div {
+display: inline-block;/*讓div並排*/
+vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/
+width: 200px;
+height: 300px;
+}
+
+.life {
+margin: 0px auto;/*div對齊效果*//*display: inline對齊效果*/
+}
+.life div {
+display: inline-block;/*讓div並排*/
+vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/
+width: 200px;
+height: 200px;
+
+}
+
+img.g{
+position: relative;right:-200px;
+width:250px;
+border-radius:20px;
+}
+img.d{
+position: relative;right:-350px;
+width:250px;
+border-radius:20px;
+}
+p.g2{
+	position: relative;right:-200px;
+width:250px;
+border-radius:10px;
+background:#FCC9B9;
+font-size:20px;
+padding:10px;}
+p.d2{
+position: relative;right:-350px;
+width:250px;
+border-radius:10px;
+background:#FCC9B9;
+font-size:20px;
+padding:10px;}
+img.mu{
+position: relative;right:-100px;
+width:250px;
+border-radius:20px;
+}
+img.pa{
+position: relative;right:-700px;
+top:-400px;
+width:250px;
+border-radius:20px;
+}
+p.mu2{
+	word-break: break-all;
+position: relative;right:-450px;
+width:400px;
+top:-250px;
+border-radius:20px;
+background:#FFB3A7;
+height:200px;
+width:500px;
+padding:10px;
+font-size:20px;
+}
+p.pa2{
+position: relative;right:-100px;
+top:-140px;
+word-break: break-all;
+width:400px;	
+border-radius:20px;
+background:#FFB3A7;
+height:200px;
+width:500px;
+padding:10px;
+font-size:20px;
+}
+
+.www{
+position: fixed;
+	right: 0;
+  	top: 60%;
+  	width: 11em;
+ 	border:3px #9C9C9C double;
+ 	padding:10px;
+ 	border-top-left-radius:2em;
+ 	border-bottom-left-radius:2em;
+ 	font-size: 18px;
+ 	background:#FFE4E1;
+
+}
+
+.ppp {
+margin: 0px auto;/*div對齊效果*//*display: inline對齊效果*/
+}
+.ppp div {
+display: inline-block;/*讓div並排*/
+vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/
+width: 11em;
+
+}
+
+img.ttt{
+width:40px;
+border-radius:10px;
+}
+
+img.future{
+float:left;
+margin-left:25px;
+margin-right:25px;
+width:300px;
+border-radius:20px;
+z-index:1;
+}
+p.fff
+{
+border-radius:20px;
+	font-size:22px;
+margin:10px;
+background:#FFF0F5;
+z-index:0;
+}
+
+img.tet
+{width:800px;
+position: relative;right:-125px;
+top:25px;
+border-radius:20px;
+}
+
+
+img.ca{
+position: relative;right:-200px;
+width:200px;
+border-radius:20px;
+}
+img.cs{
+position: relative;right:-600px;
+top:-200px;
+width:200px;
+border-radius:20px;
+}
+
+footer{
+background:#D05A6E;
+
+}
